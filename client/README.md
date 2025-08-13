@@ -38,7 +38,7 @@ This is the frontend application for the Form Automation project. It's built wit
 │   └── main.jsx       # Application entry point
 ├── .gitignore         # Git ignore file
 ├── babel.config.js    # Babel configuration
-├── Dockerfile         # Docker configuration
+
 ├── eslint.config.js   # ESLint configuration
 ├── jest.config.js     # Jest configuration
 ├── package.json       # Dependencies and scripts
@@ -109,17 +109,7 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
-## Docker
 
-A Dockerfile is provided to containerize the frontend application. To build and run the container:
-
-```bash
-# Build the image
-docker build -t form-automation-client .
-
-# Run the container
-docker run -p 80:80 form-automation-client
-```
 
 ## Deployment
 

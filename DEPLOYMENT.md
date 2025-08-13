@@ -26,27 +26,7 @@
    npm run dev
    ```
 
-## Docker Deployment
 
-### Prerequisites
-- Docker
-- Docker Compose
-
-### Steps
-
-1. **Build and run the containers**
-   ```bash
-   docker-compose up -d
-   ```
-
-2. **Access the application**
-   - Frontend: http://localhost
-   - Backend API: http://localhost:5000
-
-3. **Stop the containers**
-   ```bash
-   docker-compose down
-   ```
 
 ## Cloud Deployment
 

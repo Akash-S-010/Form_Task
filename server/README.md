@@ -33,7 +33,7 @@ This is the backend server for the Form Automation project. It's built with Node
 │   └── __tests__/      # Test files
 ├── .env.example        # Example environment variables
 ├── .gitignore          # Git ignore file
-├── Dockerfile          # Docker configuration
+
 ├── jest.config.js      # Jest configuration
 ├── package.json        # Dependencies and scripts
 ├── scraped-schema.json # Form schema definition
@@ -117,17 +117,7 @@ npm test
 npm run test:watch
 ```
 
-## Docker
 
-A Dockerfile is provided to containerize the backend application. To build and run the container:
-
-```bash
-# Build the image
-docker build -t form-automation-server .
-
-# Run the container
-docker run -p 5000:5000 -e MONGO_URI=mongodb://host.docker.internal:27017/form_automation form-automation-server
-```
 
 ## Deployment
 

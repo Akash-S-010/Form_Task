@@ -19,7 +19,6 @@ This project is a comprehensive form automation solution built with the MERN sta
 ├── client/            # React frontend
 ├── server/            # Express.js backend
 ├── .github/           # GitHub Actions workflows
-├── docker-compose.yml # Docker configuration
 ├── DEPLOYMENT.md      # Deployment instructions
 └── README.md          # This file
 ```
@@ -40,7 +39,6 @@ This project is a comprehensive form automation solution built with the MERN sta
 - JWT for authentication (if implemented)
 
 ### DevOps
-- Docker & Docker Compose
 - GitHub Actions for CI/CD
 - Jest for testing
 
@@ -76,15 +74,7 @@ This project is a comprehensive form automation solution built with the MERN sta
 
 3. Open your browser and navigate to `http://localhost:5173`
 
-### Using Docker
 
-Alternatively, you can use Docker to run the entire application:
-
-```bash
-docker-compose up -d
-```
-
-This will start the MongoDB database, backend server, and frontend client.
 
 ## Testing
 
