@@ -1,8 +1,5 @@
 # Form Automation Project
 
-[![CI](https://github.com/yourusername/form-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/form-automation/actions/workflows/ci.yml)
-[![Deploy](https://github.com/yourusername/form-automation/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/form-automation/actions/workflows/deploy.yml)
-
 ## Overview
 
 This project is a comprehensive form automation solution built with the MERN stack (MongoDB, Express.js, React, Node.js). It automates the process of filling out and submitting multi-step forms with validation, OTP verification, and data persistence.
