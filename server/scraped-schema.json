@@ -1,0 +1,136 @@
+{
+  "step1": [
+    {
+      "type": "input",
+      "id": "__EVENTTARGET",
+      "name": "__EVENTTARGET",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "__EVENTARGUMENT",
+      "name": "__EVENTARGUMENT",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "__VIEWSTATE",
+      "name": "__VIEWSTATE",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "__VIEWSTATEGENERATOR",
+      "name": "__VIEWSTATEGENERATOR",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "__VIEWSTATEENCRYPTED",
+      "name": "__VIEWSTATEENCRYPTED",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "__EVENTVALIDATION",
+      "name": "__EVENTVALIDATION",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "hidden"
+    },
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_txtadharno",
+      "name": "ctl00$ContentPlaceHolder1$txtadharno",
+      "label": "",
+      "placeholder": "Your Aadhaar No",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "text"
+    },
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_txtownername",
+      "name": "ctl00$ContentPlaceHolder1$txtownername",
+      "label": "",
+      "placeholder": "Name as per Aadhaar",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "text"
+    },
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+      "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "checkbox"
+    },
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+      "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+      "label": "",
+      "placeholder": "",
+      "required": false,
+      "pattern": "",
+      "typeAttr": "submit"
+    },
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_txtAadhaarOTP",
+      "name": "otp",
+      "label": "OTP",
+      "placeholder": "Enter 6-digit OTP",
+      "required": true,
+      "pattern": "\\d{6}",
+      "typeAttr": "text"
+    },
+    {
+      "type": "button",
+      "id": "ctl00_ContentPlaceHolder1_btnAadhaarOTPValidate",
+      "text": "Validate OTP"
+    }
+  ],
+  "step2": [
+    {
+      "type": "input",
+      "id": "ctl00_ContentPlaceHolder1_txtPANNo",
+      "name": "pan",
+      "label": "PAN Number",
+      "placeholder": "Enter PAN (e.g., ABCDE1234F)",
+      "required": true,
+      "pattern": "[A-Z]{5}\\d{4}[A-Z]{1}",
+      "typeAttr": "text"
+    },
+    {
+      "type": "button",
+      "id": "ctl00_ContentPlaceHolder1_btnPANValidate",
+      "text": "Validate PAN"
+    }
+  ]
+}
